@@ -1,2 +1,2 @@
-RewriteCond %{HTTP_HOST} ^(www\.)?naoel\.com$
-RewriteRule (.*) https://www.naoel.com/$1 [R=301,L]
+Redirect 301 https://naoel.com/courses/estate-sale-course-part-1/ https://www.naoel.com/courses/estate-sale-course-part-one
+Redirect 301 https://naoel.com/courses/estate-sale-course-part-2/ https://www.naoel.com/courses/estate-sale-course-part-two
