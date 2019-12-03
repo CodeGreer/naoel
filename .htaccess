@@ -1,2 +1,2 @@
-RewriteEngine on
-RewriteRule (.*) https://www.naoel.com/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^(www\.)?naoel\.com$
+RewriteRule (.*) https://www.naoel.com/$1 [R=301,L]
